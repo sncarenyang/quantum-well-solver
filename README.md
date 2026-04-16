@@ -48,7 +48,18 @@ This will:
   -  `quantum_well_wavefunctions.png`: shifted eigenfunctions.
   -  `quantum_well_probabilities.png`: probability densities.
 
-## 4. Mathematics (Brief)
+## 4. Project Structure
+
+quantum-well-solver/
+├── solve_1d_quantum_well.py      
+├── README.md                    
+├── images/                       
+│   ├── quantum_well_wavefunctions.png
+│   └── quantum_well_probabilities.png
+└── requirements.txt              
+
+
+## 5. Mathematics (Brief)
 
 For a 1D infinite square well of length L with m = 1, ħ = 1:
 
@@ -58,12 +69,12 @@ For a 1D infinite square well of length L with m = 1, ħ = 1:
 - Eigenenergies:
   E_n = (n^2 * pi^2) / (2*L^2)
 
-## 5. License
+## 6. License
 The code is released under the MIT License (or the license you choose).  
 It is intended for educational / demonstration purposes, not for production‑level scientific computing.
 
-## 6. Acknowledgements
+## 7. Acknowledgements
 This example is inspired by standard quantum mechanics textbooks and numerical physics resources.  
-See, for example, pedagogical notes on solving the 1D Schrödinger equation numerically with Python.
+See, for example, pedagogical notes on solving the 1-D Schrödinger equation numerically with Python.
 
 
