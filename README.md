@@ -50,13 +50,16 @@ This will:
 
 ## 4. Project Structure
 
+```bash
 quantum-well-solver/
 ├── solve_1d_quantum_well.py      
 ├── README.md                    
 ├── images/                       
 │   ├── quantum_well_wavefunctions.png
 │   └── quantum_well_probabilities.png
-└── requirements.txt              
+└── requirements.txt
+
+```            
 
 
 ## 5. Mathematics (Brief)
