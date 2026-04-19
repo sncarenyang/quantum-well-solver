@@ -1,6 +1,6 @@
 ## ⚛️ Quantum Well Solver
 
-A numerical simulation project for solving a 1-D quantum well systems using Python.
+A numerical simulation project.  For solving a differential eqaution (the Schrödinger equation) using numerical methods.
 
 ## 📊 Example Output
 
