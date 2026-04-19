@@ -35,7 +35,7 @@ This project solves the time-independent Schrödinger equation for a particle in
  -  NumPy
  -  Matplotlib
 
-## ⭐ Highlights
+## ⭐ Why This Project Matters
 
 This project demonstrates:
  - Strong foundation in quantum mechanics and mathematical physics
@@ -103,9 +103,10 @@ For a 1D infinite square well of length L with m = 1, ħ = 1:
   E_n = (n^2 * pi^2) / (2*L^2)
 
 ## 👩‍💻 Author
-Shi-Ning Caren Yang
 
-## 🌐 License
+**Shi-Ning Caren Yang**
+
+## 🌐 License & Disclaimer
 - The code is released under the MIT License.  
 - It is intended for educational / demonstration purposes, not for production‑level scientific computing.
 
