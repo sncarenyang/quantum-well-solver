@@ -24,7 +24,7 @@ This project solves the time-independent Schrödinger equation for a particle in
 
 
 ## 📊 Features
- -  Solve bound states in quantum wells
+ -  Solve first bound states (default n=5 states)in quantum wells
  -  Visualize wavefunctions
  -  Plot energy levels
  -  Explore how potential shapes affect solutions
