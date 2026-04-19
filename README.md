@@ -1,24 +1,52 @@
-# quantum-well-solver
-# 1D Infinite Quantum Well Solver
+## ⚛️ Quantum Well Solver
 
-A simple numerical solver for the 1D infinite square well ("particle in a box") problem in quantum mechanics.  
-It computes the first few eigenstates and eigenenergies, and plots the wave functions and probability densities using Python + NumPy + Matplotlib.
+A numerical simulation project for solving a 1-D quantum well systems using Python.
+
+## 📊 Example Output
+
+![/imgaes/quantum_well_wavefuntions.png](/images/quantum_well_wavefuntions.png)
+![quantum_well_probabilities.png](/images/quantum_well_probabilities.png)
+
+
+
+## 🧠 Overview
+
+This project solves the time-independent Schrödinger equation for a particle in an infinte potential well and computes :
+
+ -  Energy eigenvalues
+ -  Eigenfunctions (wavefunctions)
+ -  Probability distributions
+
+## 🔬 Methods
+ -  Finite difference for discretizing differential equations
+ -  Matrix eigenvalue decomposition
+ -  Numerical linear algebra using NumPy
+
+
+## 📊 Features
+ -  Solve bound states in quantum wells
+ -  Visualize wavefunctions
+ -  Plot energy levels
+ -  Explore how potential shapes affect solutions
+
+
+## 🛠️ Tech Stack
+ -  Python
+ -  NumPy
+ -  Matplotlib
+
+## ⭐ Highlights
+
+This project demonstrates:
+ - Strong foundation in quantum mechanics and mathematical physics
+ - Ability to translate theory into working numerical simulations
+ - Experience with scientific computing and numerical methods
+ - Pedagogical illustration for quantum physics education
+ - The code is intentionally **simple and self‑contained**, and can be run on a local machine without any external API or internet connection.
 
 ---
 
-## 1. Overview
-
-This repository provides a pedagogical implementation of:
-
-- The time‑independent Schrödinger equation for a 1D particle in an infinite square well.  
-- Analytic eigenfunctions and eigenenergies for the first few bound states.  
-- Visualizations of wave functions and probability densities along the box.
-
-The code is intentionally **simple and self‑contained**, and can be run on a local machine without any external API or internet connection.
-
----
-
-## 2. Installation
+## 🧰 Installation
 
 Create a virtual environment and install the dependencies:
 
@@ -34,7 +62,7 @@ pip install -r requirements.txt
 ```
 ---
 
-## 3. How to Run
+## 🔍 How to Run
 
 Execute the main script
 ```bash
@@ -47,8 +75,10 @@ This will:
 - Plot and save two figures:
   -  `quantum_well_wavefunctions.png`: shifted eigenfunctions.
   -  `quantum_well_probabilities.png`: probability densities.
+ 
 
-## 4. Project Structure
+
+## 🏗️ Project Structure
 
 ```bash
 quantum-well-solver/
@@ -62,7 +92,7 @@ quantum-well-solver/
 ```            
 
 
-## 5. Mathematics (Brief)
+## 🚀 Mathematics (Brief)
 
 For a 1D infinite square well of length L with m = 1, ħ = 1:
 
@@ -72,11 +102,14 @@ For a 1D infinite square well of length L with m = 1, ħ = 1:
 - Eigenenergies:
   E_n = (n^2 * pi^2) / (2*L^2)
 
-## 6. License
+## 👩‍💻 Author
+Shi-Ning Caren Yang
+
+## 🌐 License
 The code is released under the MIT License (or the license you choose).  
 It is intended for educational / demonstration purposes, not for production‑level scientific computing.
 
-## 7. Acknowledgements
+## 📚 Acknowledgements
 This example is inspired by standard quantum mechanics textbooks and numerical physics resources.  
 See, for example, pedagogical notes on solving the 1-D Schrödinger equation numerically with Python.
 
