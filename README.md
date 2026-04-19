@@ -106,9 +106,10 @@ For a 1D infinite square well of length L with m = 1, ħ = 1:
 Shi-Ning Caren Yang
 
 ## 🌐 License
-The code is released under the MIT License.  
-It is intended for educational / demonstration purposes, not for production‑level scientific computing.
+- The code is released under the MIT License.  
+- It is intended for educational / demonstration purposes, not for production‑level scientific computing.
 
 ## 📚 Acknowledgements
-This example is inspired by standard quantum mechanics textbooks and numerical physics resources. 
+- This example is inspired by standard quantum mechanics textbooks and numerical physics resources. 
+- Contributions are welcome
 
