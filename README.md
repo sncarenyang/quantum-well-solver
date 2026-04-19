@@ -106,11 +106,9 @@ For a 1D infinite square well of length L with m = 1, ħ = 1:
 Shi-Ning Caren Yang
 
 ## 🌐 License
-The code is released under the MIT License (or the license you choose).  
+The code is released under the MIT License.  
 It is intended for educational / demonstration purposes, not for production‑level scientific computing.
 
 ## 📚 Acknowledgements
-This example is inspired by standard quantum mechanics textbooks and numerical physics resources.  
-See, for example, pedagogical notes on solving the 1-D Schrödinger equation numerically with Python.
-
+This example is inspired by standard quantum mechanics textbooks and numerical physics resources. 
 
